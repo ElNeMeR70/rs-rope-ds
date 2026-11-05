@@ -1,0 +1,13 @@
+[package]
+name = "rs-rope-ds"
+version = "1.0.0"
+edition = "2021"
+description = "Rope data structure for O(log n) string edits"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-rope-ds"
+keywords = ["rust", "rope", "string", "data-structures", "text-editor"]
+
+[[bin]]
+name = "rs_rope_ds"
+path = "main.rs"
